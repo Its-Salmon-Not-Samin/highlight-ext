@@ -1,0 +1,16 @@
+pre,
+code {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow: hidden !important;
+  /* font-family: Comic Mono !important; */
+  font-size: 0.8rem;
+}
+
+* {
+  margin: 0 !important;
+}
+
+*:focus {
+  outline: none;
+}

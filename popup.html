@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>document</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>style settings</h2>
+      <p class="link" data-link="home">go back</p>
+      <label for="font_size">font size:</label>
+      <input name="font_size" type="number" value="15" /><br />
+      <label for="font_family">font:</label>
+      <input name="font_family" /><br />
+      <label for="theme">theme:</label>
+      <select name="theme">
+        <option value="tomorrow night">tomorrow night</option>
+        <option value="dracula">dracula</option>
+        <option value="okaidia">okaidia</option>
+      </select>
+      <br />
+      <button>save</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
