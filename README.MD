@@ -8,7 +8,7 @@
 **Todo:**
 - Add styling in popup working
 - More themes
-- More detection
+- Improve detection
 
 ## Install
 

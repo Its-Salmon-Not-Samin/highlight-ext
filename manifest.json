@@ -39,7 +39,7 @@
         "lib/prism-synthwave84.css",
         "lib/prism.js",
         "lib/prism-tomorrow-night.css",
-        "lib/prism-okaidia"
+        "lib/prism-okaidia.css"
       ],
       "matches": [
         "<all_urls>"

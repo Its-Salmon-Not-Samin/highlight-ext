@@ -117,25 +117,6 @@ if (location.host === 'raw.githubusercontent.com') {
         // Treat as full HTML page — highlight the whole page or do nothing
         console.log("Full HTML page detected");
         return 0;
-        // Optionally highlight <body> or do a different treatment
-        loadCSS();
-
-        loadPrismJS()
-          .then(() => {
-            // For full page, Prism usually auto-highlights in page,
-            // or you might skip fixDOM and just load highlight-all.js
-            const script = document.createElement("script");
-            script.src = chrome.runtime.getURL("/lib/highlight-all.js");
-            script.onload = function () { this.remove(); };
-            document.head.appendChild(script);
-
-            // Optional: load line numbers if you want for <pre> blocks
-            if (lineNumbers) {
-              // load line numbers scripts and styles
-            }
-          })
-          .catch(console.error);
-
       } else {
         // Looks like plain text with HTML tags (code snippet)
         console.log("HTML code snippet detected");
