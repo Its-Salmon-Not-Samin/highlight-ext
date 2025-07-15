@@ -1,11 +1,13 @@
 ## Highlight extension
 
 **Features:**
+
 - Automatically detect and highlight a lot of programming languages
 - Change the theme (only by modifying the code right now - todo)
 - Style Raw Github (Text/Plain)
 
 **Todo:**
+
 - Add styling in popup working
 - More themes
 - Improve detection

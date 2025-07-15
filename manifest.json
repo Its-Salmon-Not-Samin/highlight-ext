@@ -3,25 +3,15 @@
   "name": "Syntax highlighter",
   "version": "1.0",
   "description": "https://github.com/Its-Salmon-Not-Samin/highlight-ext.git",
-  "permissions": [
-    "activeTab",
-    "scripting",
-    "webRequest"
-  ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
+  "permissions": ["activeTab", "scripting", "webRequest"],
+  "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
-      "js": [
-        "scripts/highlight.js"
-      ],
-      "matches": [
-        "<all_urls>"
-      ]
+      "js": ["scripts/highlight.js"],
+      "matches": ["<all_urls>"]
     }
   ],
   "background": {
@@ -41,9 +31,7 @@
         "lib/prism-tomorrow-night.css",
         "lib/prism-okaidia.css"
       ],
-      "matches": [
-        "<all_urls>"
-      ]
+      "matches": ["<all_urls>"]
     }
   ]
 }
