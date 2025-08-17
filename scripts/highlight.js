@@ -107,17 +107,17 @@ if (location.host === 'raw.githubusercontent.com') {
     if (!response?.mime) return;
 
     const pureMime = response.mime.split(';')[0].trim();
-    console.log(pureMime);
+    // console.log(pureMime);
 
     // Decide language and detection based on MIME and content
     if (pureMime === 'text/html') {
       if (isFullHtmlPage()) {
         // Treat as full HTML page — highlight the whole page or do nothing
-        console.log('Full HTML page detected');
+        // console.log('Full HTML page detected');
         return 0;
       } else {
         // Looks like plain text with HTML tags (code snippet)
-        console.log('HTML code snippet detected');
+        // console.log('HTML code snippet detected');
         loadCSS();
 
         loadPrismJS()
