@@ -19,3 +19,5 @@ git clone https://github.com/Its-Salmon-Not-Samin/highlight-ext.git
 ```
 
 Then go to `about:extensions` and turn on dev mode. Select "Load unpacked" and then select the folder.
+<br>
+Btw I know nobody will use this but I want at least 1 project of mine to be public, the rest are all privated or not on Github
